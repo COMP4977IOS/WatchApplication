@@ -1,0 +1,822 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		83F56B441C898ACA007B1DF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F56B431C898ACA007B1DF4 /* AppDelegate.swift */; };
+		83F56B461C898ACA007B1DF4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F56B451C898ACA007B1DF4 /* ViewController.swift */; };
+		83F56B491C898ACA007B1DF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83F56B471C898ACA007B1DF4 /* Main.storyboard */; };
+		83F56B4B1C898ACA007B1DF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83F56B4A1C898ACA007B1DF4 /* Assets.xcassets */; };
+		83F56B4E1C898ACA007B1DF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83F56B4C1C898ACA007B1DF4 /* LaunchScreen.storyboard */; };
+		83F56B591C898ACA007B1DF4 /* Arctic_RunTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F56B581C898ACA007B1DF4 /* Arctic_RunTests.swift */; };
+		83F56B641C898ACA007B1DF4 /* Arctic_RunUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F56B631C898ACA007B1DF4 /* Arctic_RunUITests.swift */; };
+		83F56B691C898ACA007B1DF4 /* Arctic Run WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 83F56B681C898ACA007B1DF4 /* Arctic Run WatchKit App.app */; };
+		83F56B6F1C898ACA007B1DF4 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83F56B6D1C898ACA007B1DF4 /* Interface.storyboard */; };
+		83F56B711C898ACA007B1DF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83F56B701C898ACA007B1DF4 /* Assets.xcassets */; };
+		83F56B781C898ACA007B1DF4 /* Arctic Run WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 83F56B771C898ACA007B1DF4 /* Arctic Run WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		83F56B7F1C898ACA007B1DF4 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F56B7E1C898ACA007B1DF4 /* InterfaceController.swift */; };
+		83F56B811C898ACA007B1DF4 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F56B801C898ACA007B1DF4 /* ExtensionDelegate.swift */; };
+		83F56B831C898ACA007B1DF4 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F56B821C898ACA007B1DF4 /* NotificationController.swift */; };
+		83F56B851C898ACA007B1DF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83F56B841C898ACA007B1DF4 /* Assets.xcassets */; };
+		83F56B9B1C898BD6007B1DF4 /* MusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F56B9A1C898BD6007B1DF4 /* MusicViewController.swift */; };
+		83F56B9D1C899039007B1DF4 /* MusicInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F56B9C1C899039007B1DF4 /* MusicInterfaceController.swift */; };
+		83F56B9F1C89913A007B1DF4 /* AchievementsInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F56B9E1C89913A007B1DF4 /* AchievementsInterfaceController.swift */; };
+		83F56BA11C89917D007B1DF4 /* StatsInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F56BA01C89917D007B1DF4 /* StatsInterfaceController.swift */; };
+		83F56BA31C89918F007B1DF4 /* TaskInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F56BA21C89918F007B1DF4 /* TaskInterfaceController.swift */; };
+		83F56BA51C8994A5007B1DF4 /* TimeInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F56BA41C8994A5007B1DF4 /* TimeInterfaceController.swift */; };
+		83F56C0A1C8A184E007B1DF4 /* Variables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F56C091C8A184E007B1DF4 /* Variables.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		83F56B551C898ACA007B1DF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83F56B381C898AC9007B1DF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83F56B3F1C898ACA007B1DF4;
+			remoteInfo = "Arctic Run";
+		};
+		83F56B601C898ACA007B1DF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83F56B381C898AC9007B1DF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83F56B3F1C898ACA007B1DF4;
+			remoteInfo = "Arctic Run";
+		};
+		83F56B6A1C898ACA007B1DF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83F56B381C898AC9007B1DF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83F56B671C898ACA007B1DF4;
+			remoteInfo = "Arctic Run WatchKit App";
+		};
+		83F56B791C898ACA007B1DF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83F56B381C898AC9007B1DF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83F56B761C898ACA007B1DF4;
+			remoteInfo = "Arctic Run WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		83F56B8C1C898ACA007B1DF4 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				83F56B781C898ACA007B1DF4 /* Arctic Run WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83F56B901C898ACA007B1DF4 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				83F56B691C898ACA007B1DF4 /* Arctic Run WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		83F56B401C898ACA007B1DF4 /* Arctic Run.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Arctic Run.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83F56B431C898ACA007B1DF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		83F56B451C898ACA007B1DF4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		83F56B481C898ACA007B1DF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		83F56B4A1C898ACA007B1DF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		83F56B4D1C898ACA007B1DF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		83F56B4F1C898ACA007B1DF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83F56B541C898ACA007B1DF4 /* Arctic RunTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Arctic RunTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83F56B581C898ACA007B1DF4 /* Arctic_RunTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arctic_RunTests.swift; sourceTree = "<group>"; };
+		83F56B5A1C898ACA007B1DF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83F56B5F1C898ACA007B1DF4 /* Arctic RunUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Arctic RunUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83F56B631C898ACA007B1DF4 /* Arctic_RunUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arctic_RunUITests.swift; sourceTree = "<group>"; };
+		83F56B651C898ACA007B1DF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83F56B681C898ACA007B1DF4 /* Arctic Run WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Arctic Run WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83F56B6E1C898ACA007B1DF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		83F56B701C898ACA007B1DF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		83F56B721C898ACA007B1DF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83F56B771C898ACA007B1DF4 /* Arctic Run WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Arctic Run WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83F56B7D1C898ACA007B1DF4 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		83F56B7E1C898ACA007B1DF4 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		83F56B801C898ACA007B1DF4 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		83F56B821C898ACA007B1DF4 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		83F56B841C898ACA007B1DF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		83F56B861C898ACA007B1DF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83F56B9A1C898BD6007B1DF4 /* MusicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicViewController.swift; sourceTree = "<group>"; };
+		83F56B9C1C899039007B1DF4 /* MusicInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicInterfaceController.swift; sourceTree = "<group>"; };
+		83F56B9E1C89913A007B1DF4 /* AchievementsInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AchievementsInterfaceController.swift; sourceTree = "<group>"; };
+		83F56BA01C89917D007B1DF4 /* StatsInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatsInterfaceController.swift; sourceTree = "<group>"; };
+		83F56BA21C89918F007B1DF4 /* TaskInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskInterfaceController.swift; sourceTree = "<group>"; };
+		83F56BA41C8994A5007B1DF4 /* TimeInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeInterfaceController.swift; sourceTree = "<group>"; };
+		83F56C091C8A184E007B1DF4 /* Variables.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Variables.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83F56B3D1C898ACA007B1DF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83F56B511C898ACA007B1DF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83F56B5C1C898ACA007B1DF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83F56B741C898ACA007B1DF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83F56B371C898AC9007B1DF4 = {
+			isa = PBXGroup;
+			children = (
+				83F56B421C898ACA007B1DF4 /* Arctic Run */,
+				83F56B571C898ACA007B1DF4 /* Arctic RunTests */,
+				83F56B621C898ACA007B1DF4 /* Arctic RunUITests */,
+				83F56B6C1C898ACA007B1DF4 /* Arctic Run WatchKit App */,
+				83F56B7B1C898ACA007B1DF4 /* Arctic Run WatchKit Extension */,
+				83F56B411C898ACA007B1DF4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		83F56B411C898ACA007B1DF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83F56B401C898ACA007B1DF4 /* Arctic Run.app */,
+				83F56B541C898ACA007B1DF4 /* Arctic RunTests.xctest */,
+				83F56B5F1C898ACA007B1DF4 /* Arctic RunUITests.xctest */,
+				83F56B681C898ACA007B1DF4 /* Arctic Run WatchKit App.app */,
+				83F56B771C898ACA007B1DF4 /* Arctic Run WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83F56B421C898ACA007B1DF4 /* Arctic Run */ = {
+			isa = PBXGroup;
+			children = (
+				83F56B431C898ACA007B1DF4 /* AppDelegate.swift */,
+				83F56B451C898ACA007B1DF4 /* ViewController.swift */,
+				83F56B471C898ACA007B1DF4 /* Main.storyboard */,
+				83F56B4A1C898ACA007B1DF4 /* Assets.xcassets */,
+				83F56B4C1C898ACA007B1DF4 /* LaunchScreen.storyboard */,
+				83F56B4F1C898ACA007B1DF4 /* Info.plist */,
+				83F56B9A1C898BD6007B1DF4 /* MusicViewController.swift */,
+				83F56C091C8A184E007B1DF4 /* Variables.swift */,
+			);
+			path = "Arctic Run";
+			sourceTree = "<group>";
+		};
+		83F56B571C898ACA007B1DF4 /* Arctic RunTests */ = {
+			isa = PBXGroup;
+			children = (
+				83F56B581C898ACA007B1DF4 /* Arctic_RunTests.swift */,
+				83F56B5A1C898ACA007B1DF4 /* Info.plist */,
+			);
+			path = "Arctic RunTests";
+			sourceTree = "<group>";
+		};
+		83F56B621C898ACA007B1DF4 /* Arctic RunUITests */ = {
+			isa = PBXGroup;
+			children = (
+				83F56B631C898ACA007B1DF4 /* Arctic_RunUITests.swift */,
+				83F56B651C898ACA007B1DF4 /* Info.plist */,
+			);
+			path = "Arctic RunUITests";
+			sourceTree = "<group>";
+		};
+		83F56B6C1C898ACA007B1DF4 /* Arctic Run WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				83F56B6D1C898ACA007B1DF4 /* Interface.storyboard */,
+				83F56B701C898ACA007B1DF4 /* Assets.xcassets */,
+				83F56B721C898ACA007B1DF4 /* Info.plist */,
+			);
+			path = "Arctic Run WatchKit App";
+			sourceTree = "<group>";
+		};
+		83F56B7B1C898ACA007B1DF4 /* Arctic Run WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				83F56B7E1C898ACA007B1DF4 /* InterfaceController.swift */,
+				83F56B801C898ACA007B1DF4 /* ExtensionDelegate.swift */,
+				83F56B821C898ACA007B1DF4 /* NotificationController.swift */,
+				83F56B841C898ACA007B1DF4 /* Assets.xcassets */,
+				83F56B861C898ACA007B1DF4 /* Info.plist */,
+				83F56B7C1C898ACA007B1DF4 /* Supporting Files */,
+				83F56B9C1C899039007B1DF4 /* MusicInterfaceController.swift */,
+				83F56B9E1C89913A007B1DF4 /* AchievementsInterfaceController.swift */,
+				83F56BA01C89917D007B1DF4 /* StatsInterfaceController.swift */,
+				83F56BA21C89918F007B1DF4 /* TaskInterfaceController.swift */,
+				83F56BA41C8994A5007B1DF4 /* TimeInterfaceController.swift */,
+			);
+			path = "Arctic Run WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		83F56B7C1C898ACA007B1DF4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				83F56B7D1C898ACA007B1DF4 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83F56B3F1C898ACA007B1DF4 /* Arctic Run */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83F56B911C898ACA007B1DF4 /* Build configuration list for PBXNativeTarget "Arctic Run" */;
+			buildPhases = (
+				83F56B3C1C898ACA007B1DF4 /* Sources */,
+				83F56B3D1C898ACA007B1DF4 /* Frameworks */,
+				83F56B3E1C898ACA007B1DF4 /* Resources */,
+				83F56B901C898ACA007B1DF4 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83F56B6B1C898ACA007B1DF4 /* PBXTargetDependency */,
+			);
+			name = "Arctic Run";
+			productName = "Arctic Run";
+			productReference = 83F56B401C898ACA007B1DF4 /* Arctic Run.app */;
+			productType = "com.apple.product-type.application";
+		};
+		83F56B531C898ACA007B1DF4 /* Arctic RunTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83F56B941C898ACA007B1DF4 /* Build configuration list for PBXNativeTarget "Arctic RunTests" */;
+			buildPhases = (
+				83F56B501C898ACA007B1DF4 /* Sources */,
+				83F56B511C898ACA007B1DF4 /* Frameworks */,
+				83F56B521C898ACA007B1DF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83F56B561C898ACA007B1DF4 /* PBXTargetDependency */,
+			);
+			name = "Arctic RunTests";
+			productName = "Arctic RunTests";
+			productReference = 83F56B541C898ACA007B1DF4 /* Arctic RunTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		83F56B5E1C898ACA007B1DF4 /* Arctic RunUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83F56B971C898ACA007B1DF4 /* Build configuration list for PBXNativeTarget "Arctic RunUITests" */;
+			buildPhases = (
+				83F56B5B1C898ACA007B1DF4 /* Sources */,
+				83F56B5C1C898ACA007B1DF4 /* Frameworks */,
+				83F56B5D1C898ACA007B1DF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83F56B611C898ACA007B1DF4 /* PBXTargetDependency */,
+			);
+			name = "Arctic RunUITests";
+			productName = "Arctic RunUITests";
+			productReference = 83F56B5F1C898ACA007B1DF4 /* Arctic RunUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		83F56B671C898ACA007B1DF4 /* Arctic Run WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83F56B8D1C898ACA007B1DF4 /* Build configuration list for PBXNativeTarget "Arctic Run WatchKit App" */;
+			buildPhases = (
+				83F56B661C898ACA007B1DF4 /* Resources */,
+				83F56B8C1C898ACA007B1DF4 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83F56B7A1C898ACA007B1DF4 /* PBXTargetDependency */,
+			);
+			name = "Arctic Run WatchKit App";
+			productName = "Arctic Run WatchKit App";
+			productReference = 83F56B681C898ACA007B1DF4 /* Arctic Run WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		83F56B761C898ACA007B1DF4 /* Arctic Run WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83F56B891C898ACA007B1DF4 /* Build configuration list for PBXNativeTarget "Arctic Run WatchKit Extension" */;
+			buildPhases = (
+				83F56B731C898ACA007B1DF4 /* Sources */,
+				83F56B741C898ACA007B1DF4 /* Frameworks */,
+				83F56B751C898ACA007B1DF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Arctic Run WatchKit Extension";
+			productName = "Arctic Run WatchKit Extension";
+			productReference = 83F56B771C898ACA007B1DF4 /* Arctic Run WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83F56B381C898AC9007B1DF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Johnny Marin";
+				TargetAttributes = {
+					83F56B3F1C898ACA007B1DF4 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = S9YU2ZE22G;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					83F56B531C898ACA007B1DF4 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 83F56B3F1C898ACA007B1DF4;
+					};
+					83F56B5E1C898ACA007B1DF4 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 83F56B3F1C898ACA007B1DF4;
+					};
+					83F56B671C898ACA007B1DF4 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = S9YU2ZE22G;
+					};
+					83F56B761C898ACA007B1DF4 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = S9YU2ZE22G;
+					};
+				};
+			};
+			buildConfigurationList = 83F56B3B1C898AC9007B1DF4 /* Build configuration list for PBXProject "Arctic Run" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83F56B371C898AC9007B1DF4;
+			productRefGroup = 83F56B411C898ACA007B1DF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83F56B3F1C898ACA007B1DF4 /* Arctic Run */,
+				83F56B531C898ACA007B1DF4 /* Arctic RunTests */,
+				83F56B5E1C898ACA007B1DF4 /* Arctic RunUITests */,
+				83F56B671C898ACA007B1DF4 /* Arctic Run WatchKit App */,
+				83F56B761C898ACA007B1DF4 /* Arctic Run WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83F56B3E1C898ACA007B1DF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83F56B4E1C898ACA007B1DF4 /* LaunchScreen.storyboard in Resources */,
+				83F56B4B1C898ACA007B1DF4 /* Assets.xcassets in Resources */,
+				83F56B491C898ACA007B1DF4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83F56B521C898ACA007B1DF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83F56B5D1C898ACA007B1DF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83F56B661C898ACA007B1DF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83F56B711C898ACA007B1DF4 /* Assets.xcassets in Resources */,
+				83F56B6F1C898ACA007B1DF4 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83F56B751C898ACA007B1DF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83F56B851C898ACA007B1DF4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83F56B3C1C898ACA007B1DF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83F56B9B1C898BD6007B1DF4 /* MusicViewController.swift in Sources */,
+				83F56B461C898ACA007B1DF4 /* ViewController.swift in Sources */,
+				83F56B441C898ACA007B1DF4 /* AppDelegate.swift in Sources */,
+				83F56C0A1C8A184E007B1DF4 /* Variables.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83F56B501C898ACA007B1DF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83F56B591C898ACA007B1DF4 /* Arctic_RunTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83F56B5B1C898ACA007B1DF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83F56B641C898ACA007B1DF4 /* Arctic_RunUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83F56B731C898ACA007B1DF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83F56B831C898ACA007B1DF4 /* NotificationController.swift in Sources */,
+				83F56B9F1C89913A007B1DF4 /* AchievementsInterfaceController.swift in Sources */,
+				83F56B811C898ACA007B1DF4 /* ExtensionDelegate.swift in Sources */,
+				83F56B7F1C898ACA007B1DF4 /* InterfaceController.swift in Sources */,
+				83F56BA51C8994A5007B1DF4 /* TimeInterfaceController.swift in Sources */,
+				83F56BA31C89918F007B1DF4 /* TaskInterfaceController.swift in Sources */,
+				83F56B9D1C899039007B1DF4 /* MusicInterfaceController.swift in Sources */,
+				83F56BA11C89917D007B1DF4 /* StatsInterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		83F56B561C898ACA007B1DF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83F56B3F1C898ACA007B1DF4 /* Arctic Run */;
+			targetProxy = 83F56B551C898ACA007B1DF4 /* PBXContainerItemProxy */;
+		};
+		83F56B611C898ACA007B1DF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83F56B3F1C898ACA007B1DF4 /* Arctic Run */;
+			targetProxy = 83F56B601C898ACA007B1DF4 /* PBXContainerItemProxy */;
+		};
+		83F56B6B1C898ACA007B1DF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83F56B671C898ACA007B1DF4 /* Arctic Run WatchKit App */;
+			targetProxy = 83F56B6A1C898ACA007B1DF4 /* PBXContainerItemProxy */;
+		};
+		83F56B7A1C898ACA007B1DF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83F56B761C898ACA007B1DF4 /* Arctic Run WatchKit Extension */;
+			targetProxy = 83F56B791C898ACA007B1DF4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		83F56B471C898ACA007B1DF4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83F56B481C898ACA007B1DF4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		83F56B4C1C898ACA007B1DF4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83F56B4D1C898ACA007B1DF4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		83F56B6D1C898ACA007B1DF4 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83F56B6E1C898ACA007B1DF4 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		83F56B871C898ACA007B1DF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		83F56B881C898ACA007B1DF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83F56B8A1C898ACA007B1DF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Arctic Run WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jojoman46.Arctic-Run.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Debug;
+		};
+		83F56B8B1C898ACA007B1DF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Arctic Run WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jojoman46.Arctic-Run.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Release;
+		};
+		83F56B8E1C898ACA007B1DF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = Arctic_Run_WatchKit_Extension;
+				INFOPLIST_FILE = "Arctic Run WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jojoman46.Arctic-Run.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Debug;
+		};
+		83F56B8F1C898ACA007B1DF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = Arctic_Run_WatchKit_Extension;
+				INFOPLIST_FILE = "Arctic Run WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jojoman46.Arctic-Run.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Release;
+		};
+		83F56B921C898ACA007B1DF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Arctic Run/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jojoman46.Arctic-Run";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		83F56B931C898ACA007B1DF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Arctic Run/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jojoman46.Arctic-Run";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		83F56B951C898ACA007B1DF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Arctic RunTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jojoman46.Arctic-RunTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Arctic Run.app/Arctic Run";
+			};
+			name = Debug;
+		};
+		83F56B961C898ACA007B1DF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Arctic RunTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jojoman46.Arctic-RunTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Arctic Run.app/Arctic Run";
+			};
+			name = Release;
+		};
+		83F56B981C898ACA007B1DF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Arctic RunUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jojoman46.Arctic-RunUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Arctic Run";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		83F56B991C898ACA007B1DF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Arctic RunUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jojoman46.Arctic-RunUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Arctic Run";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83F56B3B1C898AC9007B1DF4 /* Build configuration list for PBXProject "Arctic Run" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83F56B871C898ACA007B1DF4 /* Debug */,
+				83F56B881C898ACA007B1DF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83F56B891C898ACA007B1DF4 /* Build configuration list for PBXNativeTarget "Arctic Run WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83F56B8A1C898ACA007B1DF4 /* Debug */,
+				83F56B8B1C898ACA007B1DF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		83F56B8D1C898ACA007B1DF4 /* Build configuration list for PBXNativeTarget "Arctic Run WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83F56B8E1C898ACA007B1DF4 /* Debug */,
+				83F56B8F1C898ACA007B1DF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		83F56B911C898ACA007B1DF4 /* Build configuration list for PBXNativeTarget "Arctic Run" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83F56B921C898ACA007B1DF4 /* Debug */,
+				83F56B931C898ACA007B1DF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		83F56B941C898ACA007B1DF4 /* Build configuration list for PBXNativeTarget "Arctic RunTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83F56B951C898ACA007B1DF4 /* Debug */,
+				83F56B961C898ACA007B1DF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		83F56B971C898ACA007B1DF4 /* Build configuration list for PBXNativeTarget "Arctic RunUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83F56B981C898ACA007B1DF4 /* Debug */,
+				83F56B991C898ACA007B1DF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83F56B381C898AC9007B1DF4 /* Project object */;
+}
